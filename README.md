@@ -23,7 +23,7 @@ Responsive Design: Our website is designed to work smoothly across various devic
 Getting Started
 To get started with Nerd'Store, follow these steps:
 
-Visit Our Website: Go to[ http://localhost:5173/](https://nerd-store-frontend.onrender.com).
+Visit Our Website: Go to[www.nerdstore.com]https://nerd-store-frontend.onrender.com).
 Explore Our Catalog: Browse through our collection of books by genre or use the search bar to find specific titles.
 Create an Account: Sign up to create your personal account for a more personalized experience.
 Usage
