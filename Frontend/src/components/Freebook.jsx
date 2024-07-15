@@ -109,7 +109,8 @@ function Freebook() {
     // };
     // getBook();
     try {
-      const res = await axios.get("http://localhost:4001/book");
+      // const res = await axios.get("http://localhost:4001/book");
+      const res = await axios.get("https://nerd-store-backend.onrender.com");
       console.log(res.data);
       setBook(res.data);
     } catch (error) {
