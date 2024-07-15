@@ -17,7 +17,7 @@ function Login() {
     };
     await axios
       // .post("http://localhost:4001/user/login", userInfo)
-      .post("//https://nerd-store-backend.onrender.com", userInfo)
+      .post("//https://nerd-store-backend.onrender.com/user/login", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
