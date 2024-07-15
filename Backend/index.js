@@ -22,6 +22,8 @@ try {
 
     });
     console.log("connected to mongoDB");
+   
+
 } catch (error) {
     console.log("error:", error)
 }

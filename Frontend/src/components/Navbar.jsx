@@ -10,17 +10,7 @@ function Navbar() {
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
   const element = document.documentElement;
-//   useEffect(() => {
-//     if (theme === "dark") {
-//       element.classList.add("dark");
-//       localStorage.setItem("theme", "dark");
-//       document.body.classList.add("dark");
-//     } else {
-//       element.classList.remove("dark");
-//       localStorage.setItem("theme", "light");
-//       document.body.classList.remove("dark");
-//     }
-//   }, [theme]);
+
 useEffect(() => {
   if (theme === "dark") {
     element.classList.add("dark");
@@ -75,6 +65,7 @@ const toggleTheme = () => {
             : ""
         }`}
       >
+
         <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">
