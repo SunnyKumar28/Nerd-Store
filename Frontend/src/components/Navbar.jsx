@@ -48,12 +48,7 @@ const toggleTheme = () => {
       <li>
         <a href="/course">Course</a>
       </li>
-      <li>
-        <a href='/Contact'>Contact</a>
-      </li>
-      <li>
-        <a>About</a>
-      </li>
+
     </>
   );
   return (
